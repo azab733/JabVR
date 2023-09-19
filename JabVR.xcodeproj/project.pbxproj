@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB19D86B2B0CA6AA0078A836 /* fist-punch-or-kick-7171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB19D86A2B0CA6AA0078A836 /* fist-punch-or-kick-7171.mp3 */; };
+		DB1F349C2B0CB94200D5EF33 /* boxing-bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB1F349B2B0CB94200D5EF33 /* boxing-bell.mp3 */; };
+		DB58E78B2AB92CF100C22BC5 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DB58E78A2AB92CF100C22BC5 /* RealityKitContent */; };
+		DB58E78D2AB92CF100C22BC5 /* JabVRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58E78C2AB92CF100C22BC5 /* JabVRApp.swift */; };
+		DB58E78F2AB92CF100C22BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58E78E2AB92CF100C22BC5 /* ContentView.swift */; };
+		DB58E7912AB92CF100C22BC5 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58E7902AB92CF100C22BC5 /* ImmersiveView.swift */; };
+		DB58E7932AB92CF100C22BC5 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = DB58E7922AB92CF100C22BC5 /* ImageBasedLighting.skybox */; };
+		DB58E7952AB92CF200C22BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB58E7942AB92CF200C22BC5 /* Assets.xcassets */; };
+		DB58E7982AB92CF200C22BC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB58E7972AB92CF200C22BC5 /* Preview Assets.xcassets */; };
+		DB750BCC2B12C70500C8EEFC /* GestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB750BCB2B12C70500C8EEFC /* GestureManager.swift */; };
+		DB750BD02B134D1700C8EEFC /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB750BCF2B134D1700C8EEFC /* AudioManager.swift */; };
+		DB750BD22B134D4000C8EEFC /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB750BD12B134D4000C8EEFC /* CountdownView.swift */; };
+		DB750BD42B134D4E00C8EEFC /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB750BD32B134D4E00C8EEFC /* HowToPlayView.swift */; };
+		DB750BD62B134D5E00C8EEFC /* RankingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB750BD52B134D5E00C8EEFC /* RankingsView.swift */; };
+		DB75E66A2B16ABB400F91F67 /* ActionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75E6692B16ABB400F91F67 /* ActionModels.swift */; };
+		DB75E66C2B16ABBD00F91F67 /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75E66B2B16ABBD00F91F67 /* ProfileModels.swift */; };
+		DB75E66E2B16B28C00F91F67 /* BagMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75E66D2B16B28C00F91F67 /* BagMenuView.swift */; };
+		DB87CF1E2B058A3F00217BBA /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB87CF1D2B058A3F00217BBA /* AnimationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB19D86A2B0CA6AA0078A836 /* fist-punch-or-kick-7171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fist-punch-or-kick-7171.mp3"; sourceTree = "<group>"; };
+		DB1F349B2B0CB94200D5EF33 /* boxing-bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boxing-bell.mp3"; sourceTree = "<group>"; };
+		DB58E7852AB92CF100C22BC5 /* JabVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58E7892AB92CF100C22BC5 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DB58E78C2AB92CF100C22BC5 /* JabVRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabVRApp.swift; sourceTree = "<group>"; };
+		DB58E78E2AB92CF100C22BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB58E7902AB92CF100C22BC5 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		DB58E7922AB92CF100C22BC5 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		DB58E7942AB92CF200C22BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB58E7972AB92CF200C22BC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB58E7992AB92CF200C22BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB750BCB2B12C70500C8EEFC /* GestureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureManager.swift; sourceTree = "<group>"; };
+		DB750BCF2B134D1700C8EEFC /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		DB750BD12B134D4000C8EEFC /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		DB750BD32B134D4E00C8EEFC /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		DB750BD52B134D5E00C8EEFC /* RankingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingsView.swift; sourceTree = "<group>"; };
+		DB75E6692B16ABB400F91F67 /* ActionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModels.swift; sourceTree = "<group>"; };
+		DB75E66B2B16ABBD00F91F67 /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
+		DB75E66D2B16B28C00F91F67 /* BagMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagMenuView.swift; sourceTree = "<group>"; };
+		DB87CF1D2B058A3F00217BBA /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB58E7822AB92CF100C22BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58E78B2AB92CF100C22BC5 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB19D8692B0CA6870078A836 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB19D86A2B0CA6AA0078A836 /* fist-punch-or-kick-7171.mp3 */,
+				DB1F349B2B0CB94200D5EF33 /* boxing-bell.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB58E77C2AB92CF100C22BC5 = {
+			isa = PBXGroup;
+			children = (
+				DB58E7872AB92CF100C22BC5 /* JabVR */,
+				DB58E7862AB92CF100C22BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB58E7862AB92CF100C22BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E7852AB92CF100C22BC5 /* JabVR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB58E7872AB92CF100C22BC5 /* JabVR */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E78C2AB92CF100C22BC5 /* JabVRApp.swift */,
+				DB750BCD2B134CE100C8EEFC /* Views */,
+				DB750BCE2B134CEE00C8EEFC /* Managers */,
+				DB75E6682B16AB8200F91F67 /* Models */,
+				DB58E7882AB92CF100C22BC5 /* Packages */,
+				DB58E7922AB92CF100C22BC5 /* ImageBasedLighting.skybox */,
+				DB58E7942AB92CF200C22BC5 /* Assets.xcassets */,
+				DB58E7992AB92CF200C22BC5 /* Info.plist */,
+				DB58E7962AB92CF200C22BC5 /* Preview Content */,
+				DB19D8692B0CA6870078A836 /* Resources */,
+			);
+			path = JabVR;
+			sourceTree = "<group>";
+		};
+		DB58E7882AB92CF100C22BC5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E7892AB92CF100C22BC5 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		DB58E7962AB92CF200C22BC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E7972AB92CF200C22BC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB750BCD2B134CE100C8EEFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E78E2AB92CF100C22BC5 /* ContentView.swift */,
+				DB58E7902AB92CF100C22BC5 /* ImmersiveView.swift */,
+				DB750BD12B134D4000C8EEFC /* CountdownView.swift */,
+				DB750BD32B134D4E00C8EEFC /* HowToPlayView.swift */,
+				DB750BD52B134D5E00C8EEFC /* RankingsView.swift */,
+				DB75E66D2B16B28C00F91F67 /* BagMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB750BCE2B134CEE00C8EEFC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DB87CF1D2B058A3F00217BBA /* AnimationManager.swift */,
+				DB750BCB2B12C70500C8EEFC /* GestureManager.swift */,
+				DB750BCF2B134D1700C8EEFC /* AudioManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DB75E6682B16AB8200F91F67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB75E6692B16ABB400F91F67 /* ActionModels.swift */,
+				DB75E66B2B16ABBD00F91F67 /* ProfileModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB58E7842AB92CF100C22BC5 /* JabVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB58E79C2AB92CF200C22BC5 /* Build configuration list for PBXNativeTarget "JabVR" */;
+			buildPhases = (
+				DB58E7812AB92CF100C22BC5 /* Sources */,
+				DB58E7822AB92CF100C22BC5 /* Frameworks */,
+				DB58E7832AB92CF100C22BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JabVR;
+			packageProductDependencies = (
+				DB58E78A2AB92CF100C22BC5 /* RealityKitContent */,
+			);
+			productName = JabVR;
+			productReference = DB58E7852AB92CF100C22BC5 /* JabVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB58E77D2AB92CF100C22BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DB58E7842AB92CF100C22BC5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DB58E7802AB92CF100C22BC5 /* Build configuration list for PBXProject "JabVR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB58E77C2AB92CF100C22BC5;
+			productRefGroup = DB58E7862AB92CF100C22BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB58E7842AB92CF100C22BC5 /* JabVR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB58E7832AB92CF100C22BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19D86B2B0CA6AA0078A836 /* fist-punch-or-kick-7171.mp3 in Resources */,
+				DB58E7952AB92CF200C22BC5 /* Assets.xcassets in Resources */,
+				DB1F349C2B0CB94200D5EF33 /* boxing-bell.mp3 in Resources */,
+				DB58E7982AB92CF200C22BC5 /* Preview Assets.xcassets in Resources */,
+				DB58E7932AB92CF100C22BC5 /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB58E7812AB92CF100C22BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB750BD42B134D4E00C8EEFC /* HowToPlayView.swift in Sources */,
+				DB87CF1E2B058A3F00217BBA /* AnimationManager.swift in Sources */,
+				DB75E66E2B16B28C00F91F67 /* BagMenuView.swift in Sources */,
+				DB75E66C2B16ABBD00F91F67 /* ProfileModels.swift in Sources */,
+				DB750BD62B134D5E00C8EEFC /* RankingsView.swift in Sources */,
+				DB75E66A2B16ABB400F91F67 /* ActionModels.swift in Sources */,
+				DB58E78F2AB92CF100C22BC5 /* ContentView.swift in Sources */,
+				DB58E78D2AB92CF100C22BC5 /* JabVRApp.swift in Sources */,
+				DB750BD22B134D4000C8EEFC /* CountdownView.swift in Sources */,
+				DB58E7912AB92CF100C22BC5 /* ImmersiveView.swift in Sources */,
+				DB750BCC2B12C70500C8EEFC /* GestureManager.swift in Sources */,
+				DB750BD02B134D1700C8EEFC /* AudioManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB58E79A2AB92CF200C22BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		DB58E79B2AB92CF200C22BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		DB58E79D2AB92CF200C22BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JabVR/Preview Content\"";
+				DEVELOPMENT_TEAM = VVJZ8228WG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdamZ.JabVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		DB58E79E2AB92CF200C22BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JabVR/Preview Content\"";
+				DEVELOPMENT_TEAM = VVJZ8228WG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdamZ.JabVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB58E7802AB92CF100C22BC5 /* Build configuration list for PBXProject "JabVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58E79A2AB92CF200C22BC5 /* Debug */,
+				DB58E79B2AB92CF200C22BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB58E79C2AB92CF200C22BC5 /* Build configuration list for PBXNativeTarget "JabVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58E79D2AB92CF200C22BC5 /* Debug */,
+				DB58E79E2AB92CF200C22BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB58E78A2AB92CF100C22BC5 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB58E77D2AB92CF100C22BC5 /* Project object */;
+}

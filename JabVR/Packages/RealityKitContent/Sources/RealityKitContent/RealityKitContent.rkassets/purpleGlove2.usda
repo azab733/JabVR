@@ -1,0 +1,78 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Xform "Root" (
+        customData = {
+            float3 rotationEulerHint = (-1.4210855e-14, 3.1415927, 0.78539747)
+        }
+    )
+    {
+        quatf xformOp:orient = (-4.038406e-8, -0.38268334, 0.9238796, -1.6727611e-8)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "Boxing_Glove" (
+            active = true
+            prepend references = @Boxing_Glove.usdz@
+        )
+        {
+            float3 xformOp:scale = (0.01, 0.01, 0.01)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Materials"
+            {
+                over "Glove"
+                {
+                    token outputs:mtlx:surface
+                    token outputs:realitykit:vertex
+                    token outputs:surface.connect = </Root/Root/Boxing_Glove/Materials/Glove/pbr_shader.outputs:surface>
+
+                    over "pbr_shader"
+                    {
+                        color3f inputs:diffuseColor = (0.37726855, 0.2445384, 0.46135616) (
+                            colorSpace = "srgb_displayp3"
+                        )
+                        delete color3f inputs:diffuseColor.connect = </Root/Root/Boxing_Glove/Materials/Glove/tex_base.outputs:rgb>
+                        float inputs:metallic.connect = </Root/Root/Boxing_Glove/Materials/Glove/tex_metallic.outputs:r>
+                        normal3f inputs:normal.connect = </Root/Root/Boxing_Glove/Materials/Glove/tex_normal.outputs:rgb>
+                        float inputs:occlusion.connect = </Root/Root/Boxing_Glove/Materials/Glove/tex_occlusion.outputs:r>
+                        float inputs:roughness.connect = </Root/Root/Boxing_Glove/Materials/Glove/tex_roughness.outputs:r>
+                    }
+
+                    over "tex_base"
+                    {
+                        float2 inputs:st.connect = </Root/Root/Boxing_Glove/Materials/Glove/uvset0.outputs:result>
+                    }
+
+                    over "tex_metallic"
+                    {
+                        float2 inputs:st.connect = </Root/Root/Boxing_Glove/Materials/Glove/uvset0.outputs:result>
+                    }
+
+                    over "tex_roughness"
+                    {
+                        float2 inputs:st.connect = </Root/Root/Boxing_Glove/Materials/Glove/uvset0.outputs:result>
+                    }
+
+                    over "tex_normal"
+                    {
+                        float2 inputs:st.connect = </Root/Root/Boxing_Glove/Materials/Glove/uvset0.outputs:result>
+                    }
+
+                    over "tex_occlusion"
+                    {
+                        float2 inputs:st.connect = </Root/Root/Boxing_Glove/Materials/Glove/uvset0.outputs:result>
+                    }
+                }
+            }
+        }
+    }
+}
+

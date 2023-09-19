@@ -1,0 +1,217 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Test2_Dummy_Alt", "Vintage__Old_punching_bag", "newOpponent", "fist_punch_or_kick_7171_mp3"]
+    def "newOpponent" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0)
+        }
+        references = @newOpponent.usda@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.25, 0.25, 0.25)
+        float3 xformOp:translate = (0, 1.1920929e-7, -1.8)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "head"
+        {
+            reorder nameChildren = ["fist_punch_or_kick_7171_mp3", "ParticleEmitter", "SpatialAudio", "DefaultMaterial"]
+            float3 xformOp:translate = (0.055622004, 7.1830587, 0.017405838)
+
+            def RealityKitComponent "VFXEmitter"
+            {
+                uniform token info:id = "RealityKit.VFXEmitter"
+
+                def RealityKitStruct "currentState"
+                {
+                    token birthDirection = "Normal"
+                    token birthLocation = "Surface"
+                    float3 birthLocationVertex = (6, 6, 6)
+                    float3 emissionDirection = (0, 1, 0)
+                    double emissionDuration = 0.05
+                    double emissionDurationVariation = 0
+                    token emitterShape = "Sphere"
+                    double idleDuration = 2
+                    double idleDurationVariation = 0
+                    bool isEmitting = 0
+                    bool isLocal = 0
+                    bool isSpawningEnabled = 0
+                    bool loops = 0
+                    float particleSpeed = 1
+                    float particleSpeedVariation = 0.1
+                    float radialAmount = 15
+                    float3 shapeSize = (0.05, 0.01, 0.05)
+                    bool spawnInheritParentColor = 0
+                    token spawnOccasion = "OnDeath"
+                    float spawnSpreadFactor = 0
+                    float spawnSpreadFactorVariation = 0
+                    float spawnVelocityFactor = 1
+                    double warmupDuration = 0
+
+                    def RealityKitStruct "mainEmitter"
+                    {
+                        float3 acceleration = (0, -0.05, 0)
+                        token animationRepeatMode = "PlayOnce"
+                        token billboardMode = "Billboard"
+                        float birthRate = 2000
+                        float birthRateVariation = 0
+                        token blendMode = "Alpha"
+                        float colorEvolutionPower = 1
+                        int64 columnCount = 4
+                        float dampingFactor = 8
+                        float4 endColorA = (0.6823043, 0.22777611, 1, 1)
+                        float4 endColorB = (0.11386989, 0.0064959256, 0.10626237, 1)
+                        float frameRate = 0
+                        float frameRateVariation = 0
+                        int64 initialFrame = 2
+                        int64 initialFrameVariation = 6
+                        bool isAnimated = 1
+                        bool isLightingEnabled = 0
+                        float noiseAnimationSpeed = 0
+                        float noiseScale = 1
+                        float noiseStrength = 0.1
+                        token opacityOverLife = "LinearFadeOut"
+                        float particleAngle = 0
+                        float particleAngleVariation = 0
+                        float particleAngularVelocity = 0
+                        float particleAngularVelocityVariation = 1
+                        asset particleImage = @ParticleEmitterPresetTextures/dustsheet.exr@
+                        double particleLifeSpan = 2
+                        double particleLifeSpanVariation = 1
+                        float particleMass = 1
+                        float particleMassVariation = 0.8
+                        float particleSize = 0.01
+                        float particleSizeVariation = 0
+                        float3 radialGravityCenter = (0, -0.1, 0)
+                        float radialGravityStrength = -0.1
+                        int64 rowCount = 4
+                        float sizeMultiplierAtEndOfLifespan = 8
+                        float sizeMultiplierAtEndOfLifespanPower = 0.2
+                        token sortOrder = "DecreasingDepth"
+                        float spreadingAngle = 0
+                        float4 startColorA = (0.08552573, 0.011038009, 0.28998825, 1)
+                        float4 startColorB = (0.08552573, 0.011038009, 0.28998825, 1)
+                        float stretchFactor = 0
+                        bool useEndColor = 0
+                        bool useEndColorRange = 0
+                        bool useStartColorRange = 1
+                        float3 vortexDirection = (0, 1, 0)
+                        float vortexStrength = 0
+                    }
+
+                    def RealityKitStruct "spawnedEmitter"
+                    {
+                    }
+                }
+            }
+        }
+
+        over "leftUpperArm" (
+            customData = {
+                float3 rotationEulerHint = (-1.0471975, 1.7881392e-7, 0.6981316)
+            }
+        )
+        {
+            quatf xformOp:orient = (0.8137978, -0.46984634, -0.17100997, 0.29619816)
+
+            over "DefaultMaterial"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "leftForearm" (
+                customData = {
+                    float3 rotationEulerHint = (-1.7453291, 0, 0)
+                }
+            )
+            {
+                quatf xformOp:orient = (0.64278764, -0.7660444, 0, 0)
+                float3 xformOp:translate = (0, -0.2, 0.1)
+            }
+        }
+
+        def RealityKitComponent "RigidBody"
+        {
+            float angularDamping = 0
+            bool gravityEnabled = 0
+            uniform token info:id = "RealityKit.RigidBody"
+            float linearDamping = 0
+            bool lockRotationX = 0
+            bool lockRotationY = 0
+            bool lockRotationZ = 0
+            bool lockTranslationX = 0
+            bool lockTranslationY = 0
+            bool lockTranslationZ = 0
+            token motionType = "Dynamic"
+
+            def RealityKitStruct "massFrame"
+            {
+                float3 m_inertia = (0.1, 0.1, 0.1)
+                float m_mass = 1
+
+                def RealityKitStruct "m_pose"
+                {
+                    quatf orientation = (1, 0, 0, 0)
+                    float3 position = (0, 0, 0)
+                }
+            }
+
+            def RealityKitStruct "material"
+            {
+                double dynamicFriction = 0
+                double restitution = 0
+                double staticFriction = 0
+            }
+        }
+
+        def RealityKitComponent "MotionState"
+        {
+            uniform token info:id = "RealityKit.MotionState"
+            float3 m_userSetAngularVelocity = (0, 0, 0)
+            uint m_userSetAngularVelocityVersion = 1
+            float3 m_userSetLinearVelocity = (0, 0, 0)
+            uint m_userSetLinearVelocityVersion = 1
+        }
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 1
+            uniform token info:id = "RealityKit.Collider"
+            token type = "Default"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (3.9687564, 20, 3.547017)
+                token shapeType = "Box"
+            }
+        }
+
+        over "rightUpperArm" (
+            customData = {
+                float3 rotationEulerHint = (-1.0471976, 2.0861626e-7, -0.69813156)
+            }
+        )
+        {
+            quatf xformOp:orient = (0.8137977, -0.46984628, 0.17101014, -0.29619804)
+
+            over "rightForearm" (
+                customData = {
+                    float3 rotationEulerHint = (-1.7453291, 0, 0)
+                }
+            )
+            {
+                quatf xformOp:orient = (0.64278764, -0.76604444, 0, 0)
+            }
+        }
+    }
+}
+

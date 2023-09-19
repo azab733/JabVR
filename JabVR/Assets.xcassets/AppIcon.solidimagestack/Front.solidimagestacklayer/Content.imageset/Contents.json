@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "icons8-boxing-90-3 1.png",
+      "idiom" : "vision",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

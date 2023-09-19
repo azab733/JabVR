@@ -1,0 +1,20 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Boxing_Motionless_Jab_Animation.usdz" : "BA63257F-C689-4049-8662-976BA0F6CF14",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/glove.usda" : "50DF93FA-BA06-422C-8480-6B08A2B5A66D",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/gloves.usda" : "1811953E-20D8-406A-B350-AA033838F692",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/HitAnimation.usda" : "32BDEAE5-0742-4AD2-9BED-4353A21B4D3A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/homeScene.usda" : "8925AAD9-E250-416C-BD0D-1476345B3A22",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/newOpponent.usda" : "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/oponnentStart.usdz" : "1477640D-E9FD-4476-98CD-D93D7350E82F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/purpleGlove.usda" : "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/purpleGlove2.usda" : "0C988722-7D64-431E-9573-7E390CCDF286",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B"
+  }
+}

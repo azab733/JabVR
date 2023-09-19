@@ -1,0 +1,43 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root" (
+    customData = {
+        float3 rotationEulerHint = (0, 0, -0.785398)
+    }
+)
+{
+    quatf xformOp:orient = (0.92387956, 0, 0, -0.38268337)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def "Boxing_Glove" (
+        active = true
+        prepend references = @Boxing_Glove.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "Glove"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor = (0.37726855, 0.2445384, 0.46135616) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    delete color3f inputs:diffuseColor.connect = </Root/Boxing_Glove/Materials/Glove/tex_base.outputs:rgb>
+                }
+            }
+        }
+    }
+}
+

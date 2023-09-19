@@ -1,0 +1,603 @@
+{
+  "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
+    "objectMetadataList" : [
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0C988722-7D64-431E-9573-7E390CCDF286" : {
+    "objectMetadataList" : [
+      [
+        "0C988722-7D64-431E-9573-7E390CCDF286",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "23E03B91-7467-4E10-B182-D1E5AA9501B4" : {
+    "objectMetadataList" : [
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "upperBody"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Glove_004",
+        "Boxing_Glove_004_Glove_Material_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx",
+        "Object_2",
+        "RootNode",
+        "Object_4",
+        "_rootJoint",
+        "skin0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "leftGlove",
+        "Boxing_Glove_004_Glove_Material_0"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx",
+        "Object_2",
+        "RootNode",
+        "Object_4"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx",
+        "Object_2",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Gloves___Left_Handed",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Gloves___Left_Handed",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "rightGlove",
+        "Boxing_Glove_004_Glove_Material_0"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Gloves___Left_Handed",
+        "Meshes",
+        "Sketchfab_model",
+        "Boxing_Gloves___Left_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "rightGlove",
+        "Boxing_Glove_004_Glove_Material_0_1"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Glove_004",
+        "Boxing_Glove_004_Glove_Material_0_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "leftGLOVE",
+        "Boxing_Glove_004_Glove_Material_0"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Gloves___Left_Handed",
+        "Meshes",
+        "Sketchfab_model",
+        "Boxing_Gloves___Left_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Gloves___Left_Handed",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "leftGlove",
+        "Boxing_Glove_004_Glove_Material_0_1"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes",
+        "Sketchfab_model",
+        "_73b106985ea467c844d6facc00c39a2_fbx",
+        "Object_2",
+        "RootNode",
+        "Object_4",
+        "_rootJoint"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "leftGLOVE",
+        "Boxing_Glove_004_Glove_Material_0_1"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : true
+      },
+      [
+        "23E03B91-7467-4E10-B182-D1E5AA9501B4",
+        "Root",
+        "Boxing_Motionless_Jab_Animation",
+        "SkinnedMeshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "32BDEAE5-0742-4AD2-9BED-4353A21B4D3A" : {
+    "objectMetadataList" : [
+      [
+        "32BDEAE5-0742-4AD2-9BED-4353A21B4D3A",
+        "HitAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22" : {
+    "objectMetadataList" : [
+      [
+        "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+        "Root",
+        "Boxing_Glove",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+        "Root",
+        "Boxing_Glove",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+        "Root",
+        "Boxing_Glove"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "65B3C09B-D4AC-4D05-BD8B-C8D69AD38A22",
+        "Root",
+        "Boxing_Glove",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "65F6F990-A780-4474-B78B-572E0E4E273D" : {
+    "objectMetadataList" : [
+      [
+        "65F6F990-A780-4474-B78B-572E0E4E273D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8925AAD9-E250-416C-BD0D-1476345B3A22" : {
+    "objectMetadataList" : [
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "Test2_Dummy_Alt",
+        "Materials",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "newOpponent",
+        "upperBody",
+        "rightUpperArm"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "newOpponent",
+        "head"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "Test2_Dummy_Alt",
+        "Materials",
+        "Meshes",
+        "Sketchfab_model",
+        "DummyAlt_obj_cleaner_materialmerger_gles"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "Test2_Dummy_Alt",
+        "leftGlove",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "Test2_Dummy_Alt",
+        "rightGlove",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "newOpponent"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "Test2_Dummy_Alt",
+        "Materials",
+        "Meshes",
+        "Sketchfab_model",
+        "DummyAlt_obj_cleaner_materialmerger_gles",
+        "Object_3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "newOpponent",
+        "upperBody",
+        "leftUpperArm"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8925AAD9-E250-416C-BD0D-1476345B3A22",
+        "Root",
+        "newOpponent",
+        "upperBody"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "66168B71-AB05-424E-8B6C-D33D6E61B08F" : {
+    "objectMetadataList" : [
+      [
+        "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "1811953E-20D8-406A-B350-AA033838F692" : {
+    "objectMetadataList" : [
+      [
+        "1811953E-20D8-406A-B350-AA033838F692",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AF09ED6F-1707-48FD-8720-65B998362C09" : {
+    "objectMetadataList" : [
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Left"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Right"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CB766F92-EE55-4A63-9401-E7B8C009764D" : {
+    "objectMetadataList" : [
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D560BB77-AAF3-4BDE-B7C4-989332A4688B" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "D66134B1-3681-4A8E-AFE5-29F257229F3B" : {
+    "objectMetadataList" : [
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}

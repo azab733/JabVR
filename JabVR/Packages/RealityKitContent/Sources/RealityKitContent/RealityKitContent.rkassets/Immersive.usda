@@ -1,0 +1,81 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Sphere_Left", "Sphere_Right", "_GridMaterial"]
+    def Sphere "Sphere_Right" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/_GridMaterial/GridMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double radius = 0.1
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0.5, 1.5, -1.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Sphere "Sphere_Left" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/_GridMaterial/GridMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double radius = 0.1
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-0.5, 1.5, -1.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "_GridMaterial" (
+        active = true
+        prepend references = @_GridMaterial.usda@
+    )
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Boxing_Glove" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.3189242e-8, 5.0685585e-9, -1.020706)
+        }
+        prepend references = @Boxing_Glove.usdz@
+    )
+    {
+        quatf xformOp:orient = (0.8725721, -4.5163238e-9, 5.4327165e-9, -0.4884853)
+        float3 xformOp:scale = (0.005, 0.004999999, 0.005)
+        float3 xformOp:translate = (0.09599387, 1.4487587, -2.8417382)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "Glove"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor = (0.4575502, 0.2686082, 0.46135616) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    delete color3f inputs:diffuseColor.connect = </Root/Boxing_Glove/Materials/Glove/tex_base.outputs:rgb>
+                }
+            }
+        }
+    }
+}
+

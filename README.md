@@ -1,4 +1,4 @@
-# JabVR
+# Jab VR
 
 Jab VR is a mixed reality boxing game for visionOS that I made for my final project. Jab
 VR is built for the upcoming Apple Vision Pro mixed reality headset, but can be played in the visionOS simulator in Xcode. Its purpose is to

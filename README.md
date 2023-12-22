@@ -8,7 +8,12 @@ users of the headset to play.
 
 Created by Adam Zabloudil
 
+
+
+
 ![pic1](/docs/pic1.png)
+
+![pic7](/docs/pic7.png)
 
 ![pic2](/docs/pic2.png)
 
@@ -19,5 +24,3 @@ Created by Adam Zabloudil
 ![pic5](/docs/pic5.png)
 
 ![pic6](/docs/pic6.png)
-
-![pic7](/docs/pic7.png)
